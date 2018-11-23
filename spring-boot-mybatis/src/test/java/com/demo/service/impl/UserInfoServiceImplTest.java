@@ -36,7 +36,7 @@ public class UserInfoServiceImplTest extends SimpleTest{
 	
 	@Test
 	public void selectByPage() {
-		System.err.println(JSON.toJSONString(userInfoService.selectByPage(2, 1)));
+		System.err.println(JSON.toJSONString(userInfoService.selectByPage(2, 2)));
 	}
 
 }
